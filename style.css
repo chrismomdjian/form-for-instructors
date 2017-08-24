@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+img:hover {
+  opacity: .80;
+  transition-duration: .3s;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #a6093d;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #eaaa00;
+  transition-duration: .3s;
+}
+
+.form-section {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.form-title {
+  margin: 25px;
+}
+
+.success-message {
+  color: #27ae60;
+}
+
+.error-message {
+  color: #e74c3c;
+}
